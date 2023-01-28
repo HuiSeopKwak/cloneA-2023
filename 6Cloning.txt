@@ -1,0 +1,95 @@
+    #6.1 Sign Up Screen part One
+
+0) index는 대부분의 웹서버가 가장 먼저 읽는 파일 (브라우저가 가진 디폴트 속성)
+1) '! + Enter'는 html 기본 서식을 빠르게 입력할 수 있는 단축키
+2) column이라는 이름은 매우 일반적이기 때문에, 구분을 하려고 '부모 요소__자식요소'로 지음
+예) 〈div id="status-bar"〉
+〈div class = "status-bar__column"〉 〈/div〉
+〈/div〉
+
+    #6.2 BEM
+
+https://nykim.work/15
+BEM(Block Element Modifier)에 대해 한국어로 정리해 놓은 블로그
+
+    #6.3 Font Awesome
+
+아이콘 추가 방법 2가지종류
+- 직접 이미지 아이콘 추가
+- SVG
+
+SVG방법
+- Heroicons [Heroicons - Free Open Source SVG Icon Library]
+(https://heroicons.dev/)
+- Fontawesome [Font Awesome]
+(https://fontawesome.com/)
+- 스크립트는 body 태그 닫기 직전에 위치시킴
+
+    #6.4 Sign Up Screen part Two
+
+헤더작성
+어떤 페이지든 공통적으로 헤더를 가지고 있으므로 클래스를 만들어줘야함
+
+form 작성
+id pw 입력창과 버튼두개
+그리고 이번 프로젝트에 form은 많이 필요하지 않기 때문에 클래스 아이디를 고민안해도됨
+
+하지만 링크는 많이 사용되기 때문에
+구분하기 위한 클래스나 아이디를 만드는건 별로라 form태그 안에 넣어둠
+
+    #6.5 Status Bar CSS
+
+google fonts > css 폰트찾기 좋은 곳
+link:css + enter : css링크 단축키
+- import위치는 제일 상단
+- body에 font-family 추가
+- 모든 폰트를 추가하면 웹사이트 무거워진다.
+[Google Fonts](https://fonts.google.com/)
+
+css hack(justify-content대신사용가능)
+- 레시피 같이 어디든 쓸 수 있다. 이상하지만 작동한다.
+- 1 상위 박스 : justify-content: center; -중앙으로 몰림
+- 2 내부 박스 범위 : width: 33%; -왼쪽으로 몰려서 범위 벌어짐, 왼쪽 위치할 박스는 왼쪽에 붙어서 정렬됨
+- 3 중앙에 위치할 박스 : display: flex; justify-content: center; -중앙에 위치할 박스만 중앙에 위치함
+- 4 오른쪽에 정렬할 박스 : *display*: flex; *justify-content*: flex-end; *align-items*: center; -오른쪽에 붙어서 정렬됨
+
+    #6.6 Sign Up Screen part Three
+
+리셋 CSS = 기본적으로 브라우저에서 제공하는 body의 margin을 없애는 것
+h1, p tag같은 텍스트를 다루는 tag들을 가운데 정렬 할 때는 text-align:center 이용
+
+    #6.7 Log In Form part One
+
+    #6.8 Log In Form part Two
+
+    #6.9 Recap and Forms
+
+    #6.10 Navigation Bar part One
+    
+    #6.11 Navigation Bar part Two
+
+    #6.12 Border Box
+    
+    #6.13 Navigation Bar part Three
+
+    #6.14 Screen Header
+
+    #6.15 Friends Screen part One
+
+    #6.16 User Component part One
+
+    #6.17 User Component part Two
+
+    #6.18 Finishing Friends Screen
+
+    #6.19 Chats Screen part One
+
+    #6.20 Chats Screen part Two
+
+    #6.21 Find Screen part One
+
+    #6.22 Find Screen part Two
+    
+    #6.23 Find Screen part Three
+    
+    #6.24 Find Screen part Four
