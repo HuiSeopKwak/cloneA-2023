@@ -1,0 +1,7 @@
+.alt-header__column span:last-child {
+    padding-left:20px;
+}
+#chat-screen,
+#chat-screen .status-bar {
+    background-color: #abc1d1;
+}
