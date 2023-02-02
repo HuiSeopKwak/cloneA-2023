@@ -3,6 +3,7 @@
     position:fixed;
     display: flex;
     width:100%;
+    box-sizing: border-box;
     justify-content: center;
     padding: 5px 3px;
     background-color: white;

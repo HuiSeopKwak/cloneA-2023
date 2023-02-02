@@ -15,9 +15,13 @@
 .alt-header__column:nth-child(2) {
     display:flex;
     justify-content: center;    
+    /* 위에 두줄말고 그냥 text-align: center; 해도됨 */
 }
 .alt-header__column:last-child {
+    /* margin-left: auto; */
     display:flex;
     justify-content:flex-end;
-    align-items:center;
+}
+.alt-header__column span:last-child {
+    margin-left:20px;
 }
