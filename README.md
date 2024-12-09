@@ -1,3 +1,3 @@
-# Clone coding 2023
+# KaKaoTalk clone coding 2023
 
-one more test
+This project is a clone of the KakaoTalk website built entirely with HTML and CSS.
